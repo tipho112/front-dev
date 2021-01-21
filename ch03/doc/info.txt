@@ -1,0 +1,10 @@
+# * { margin:0; padding:0; }
+기본값 설정
+
+# ex01
+margin: 10px auto 10px auto; => 중앙정렬을 하고싶을떄 left,right에 auto값을 지정해준다. 단, width가 기준이기 때문에 with가 지정된 상태에서 사용 가능
+
+# ex02
+closure : 
+
+# ex03
