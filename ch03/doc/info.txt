@@ -8,3 +8,8 @@ margin: 10px auto 10px auto; => 중앙정렬을 하고싶을떄 left,right에 au
 closure : 
 
 # ex03
+max-height : content가 max-height 보다 크더라도 크기가 조절되지 않음(최대값 설정), 초과되는 content(overflow)는 나오지 않음
+min-height : content가 min-height 보다 작더라도 크기가 조절되지 않음(최소값 설정)
+height만 주면 overflow는 동작하지 않음
+
+# ex04
