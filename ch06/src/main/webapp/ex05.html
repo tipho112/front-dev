@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang='ko'>
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
@@ -16,13 +16,21 @@
 		
 	3. Node(노드)
 		- DOM Tree의 각각의 요소(== HTMLElement)
- */
-
-
-
+*/
+ 
+// DOM Loading이 완료된 시점
+window.addEventListener('load', function() {
+	let el = document.getElementById('header-1');
+	console.log(el);
+});
 </script>
 </head>
 <body>
-	
+	<h1 id="header-1">Step 1</h1>
+	<script>
+	alert("Step 2")
+	</script>
+	<h1>Step 3</h1>
+	<script>alert("Step 4")</script>
 </body>
 </html>
