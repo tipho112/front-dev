@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+// 속성 확인
+var s = '';
+for(property in location) {
+	s += (property + " : " + location[property] + "\n");
+}
+console.log(s);
+</script>
+</head>
+<body>
+	<h1>BOM(Browser Object Model) - window, location, screen, navigator</h1>
+	<h2>3. location 객체(주소창)</h2>
+	
+	<h3>Page Redirection</h3>
+	<Button onclick='location.href="http://www.bitacademy.com";'>bit 교육센터</Button>
+	
+	<h3>Page Refresh</h3>
+	<!-- 방법1 F5 -->
+	<Button onclick='location = location;'>refresh01</Button>
+	<!-- 방법2 F5 -->
+	<Button onclick='location.href = location.href;'>refresh02</Button>
+	<!-- 방법3 F5 -->
+	<Button onclick='location.assign("");'>refresh03</Button>
+	<!-- 방법4 F5 -->
+	<Button onclick='location.replace(location);'>Refresh04</Button>
+	<!-- 방법5 ctrl+F5 -->
+	<Button onclick='location.reload()'>Refresh05</Button>
+</body>
+</html>
