@@ -8,5 +8,5 @@
 
 2006 v1.0
 2009 v1.3   <- sizzle.js embeded
-       v2.0   : <=IE8 지원x
+     v2.0   : <=IE8 지원x
 2016 v3.0   : ES6 비동기 지원
